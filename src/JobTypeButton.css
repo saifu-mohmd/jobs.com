@@ -1,0 +1,56 @@
+.jobType {
+  width: 130px;
+  height: 45px;
+  margin-left: 15px;
+  background-color: white;
+  position: relative;
+  border-radius: 20px !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.jobType:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+
+.jobType-text {
+  font-family: Poppins;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.jobType-logo-section {
+  width: 33px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  top: 6px;
+  border-radius: 60% 64% 64% 60%;
+  left: -8px;
+  border-left: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0px 4px 1px inset;
+}
+
+.jobType-logo {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: -7px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.jobType-img {
+  max-width: 85%;
+  max-height: auto;
+}
+.arrow-img{
+  float: right;
+  max-width: 10%;
+}

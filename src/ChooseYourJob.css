@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Fonts/Poppins-Medium.ttf);
+}
+
+.body {
+  background-color: white;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  color: #464444;
+  font-family: Poppins;
+}
+
+.fs-md {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.fs-sm {
+  font-size: 14px;
+}
+
+.jobSearch {
+  width: 80%;
+  height: 80px;
+  background-color: #e9f1fa;
+  border-radius: 20px;
+  padding: 15px 25px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.job-type-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job-type-input-search{
+  border-radius: 5px;
+  color: white;
+  padding: 4px 10px ;
+  background-color: #00abe4;
+}
+@media only screen and (max-width: 1024px) {
+  body .choose-you-job-heading{
+    margin-bottom: 0px !important;
+  }
+}

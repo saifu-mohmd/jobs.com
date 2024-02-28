@@ -1,0 +1,49 @@
+.google-play {
+  width: 130px;
+  height: 45px;
+  margin-left: 15px;
+  background-color: white;
+  position: relative;
+  border-radius: 20px !important;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 4px 13px, rgba(0, 0, 0, 0.23) 1px 3px 4px;
+}
+.google-play:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+
+.google-play-text {
+  font-family: Poppins;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.google-play-logo-section {
+  width: 33px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  top: 6px;
+  border-radius: 60% 64% 64% 60%;
+  left: -8px;
+  border-left: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0px 4px 1px inset;
+}
+
+.google-play-logo {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: -7px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.google-play-img {
+  max-width: 60%;
+  max-height: auto;
+}

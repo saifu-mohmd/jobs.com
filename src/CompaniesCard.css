@@ -1,0 +1,104 @@
+.companies-card{
+  max-width: 100%;
+  background-color: white;
+  color: #464444;
+  font-family: Poppins;
+  border-radius: 10px;
+  padding: 15px 10px 10px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  
+}
+.companies-card:hover{
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+.apply-now-button:hover{
+  background-color: white;
+  border: 1px solid #00abe4;
+  color: #00abe4;
+  transition: 0.2s;
+
+}
+.logo-title-div{
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 6px 15px 6px 9px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.logo-body{
+  float: left;
+}
+
+.company-logo{
+  max-width: 25px;
+}
+.company-title{
+  float: left;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.fs-xs{
+  font-size: 13px;
+}
+
+
+.designation-rating-body{
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.rating{
+  float: right;
+}
+
+.experience-logo{
+  max-width: 24px !important;
+  display: flex;
+  align-items: center;
+}
+.location-logo{
+  max-width: 24px !important;
+  display: flex;
+  align-items: center;
+}
+.appoinment-logo{
+  max-width: 24px !important;
+  display: flex;
+  align-items: center;
+}
+.salary-logo{
+  max-width: 24px !important;
+  display: flex;
+  align-items: center;
+}
+.job-description-link-div{
+  display: flex;
+ align-items: center;
+}
+.job-description-link{
+  text-decoration:none;
+  color: #00ABE4;
+}
+.apply-now-button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #00ABE4;
+  color: white;
+  float: right;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .companies-card{
+    max-width: 100%;
+    background-color: white;
+    color: #464444;
+    font-family: Poppins;
+    border-radius: 10px;
+    padding: 15px 10px 10px 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+  }
+}

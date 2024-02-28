@@ -1,0 +1,39 @@
+.jobcard-body {
+  background-color: white;
+  color: #464444;
+  font-family: Poppins;
+  border-radius: 20px;
+  position: relative;
+  padding: 35px 15px 15px 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.jobcard-body:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+.top-circle {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 50%;
+  position: absolute;
+  top: -35px;
+  left: 40%;
+}
+.jobCard-img {
+  max-width: 40px;
+}
+.jobcard-title {
+  width: 70%;
+  height: 50px;
+  text-align: center;
+}
+.job-para {
+  text-align: center;
+  font-weight: normal;
+  
+}

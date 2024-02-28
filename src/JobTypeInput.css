@@ -1,0 +1,12 @@
+.fs-sm {
+  font-size: 14px;
+}
+.jobTypeInput {
+  width: 250px;
+  padding: 5px 5px;
+  background-color: white;
+  color: #464444;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

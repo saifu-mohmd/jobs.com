@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Fonts/Poppins-Medium.ttf);
+}
+
+button {
+  border: none;
+}
+
+.body {
+  background-color: white;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  color: #464444;
+  font-family: Poppins;
+}
+
+.fs-lg {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.fs-xs {
+  font-size: 13px;
+}
+.banner-caption {
+  letter-spacing: 1px;
+}
+
+.banner-caption span {
+  color: #00abe4;
+}
+.banner-img {
+  max-width: 90%;
+  height: auto;
+  float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner-btn-row .apple-store-btn{
+    padding-left: 40px !important;
+  }
+
+}

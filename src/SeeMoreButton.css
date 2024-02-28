@@ -1,0 +1,18 @@
+.see-more-button{
+  font-family: Poppins;
+  padding: 3px 6px;
+  border-radius: 5px;
+  border: 2px hsl(195, 100%, 45%) solid;
+  color: #00abe4;
+  background-color: white;
+  font-size: 14px;
+}
+.see-more-button:hover {
+  background-color: #00abe4;
+  color: white;
+  transition: 0.2s;
+}
+.mdKeyboardArrowRight{
+  width: 20px;
+  height: 20px;
+}

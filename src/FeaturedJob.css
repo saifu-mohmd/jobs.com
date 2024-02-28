@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Fonts/Poppins-Medium.ttf);
+}
+
+.body {
+  background-color: white;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  color: #464444;
+  font-family: Poppins;
+}
+
+.fs-md {
+  font-size: 26px;
+  font-weight: 700;
+}

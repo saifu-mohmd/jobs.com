@@ -1,0 +1,91 @@
+.hiring-main-div{
+  width: 99%;
+  font-family: Poppins;
+}
+.hiring-main-div:hover{
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+.left-top-circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.title-main-div{
+  color: #00abe4;
+}
+.marketing-logo{
+  max-width: 30px;
+}
+.marketing{
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.hiring-card {
+  width: 100%;
+  background-color: white;
+  color: #464444;
+  font-family: Poppins;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.fs-xs {
+  font-size: 13px;
+}
+.hiringCard-rating-logo {
+  max-width: 12px !important;
+  display: flex;
+  align-items: center;
+}
+.hiringCard-experience-logo {
+  max-width: 12px !important;
+  display: flex;
+  align-items: center;
+}
+.hiringCard-location-logo {
+  max-width: 24px !important;
+  display: flex;
+  align-items: center;
+}
+.hiringCard-appoinment-logo {
+  max-width: 24px !important;
+  display: flex;
+  align-items: center;
+}
+.hiringCard-salary-logo {
+  max-width: 24px !important;
+  display: flex;
+  align-items: center;
+}
+.hiringCard-job-description-link-div {
+  display: flex;
+  align-items: center;
+}
+.hiringCard-job-description-link {
+  text-decoration: none;
+  color: #00abe4;
+}
+.hiringCard-apply-now-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #00abe4;
+  border-color: white;
+  color: white;
+  float: right;
+}
+.hiringCard-apply-now-button:hover{
+  background-color: white;
+  border: 1px solid #00abe4;
+  color: #00abe4;
+  transition: 0.2s;
+
+}

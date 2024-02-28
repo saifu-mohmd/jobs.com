@@ -1,0 +1,44 @@
+.footer-container{
+  background-color: #00ABE4;
+  padding: 40px 5% !important;
+  color: white;
+  font-family: Poppins;
+  border-radius: 20px 20px 0px 0px;
+}
+.company-ul{
+  list-style-type: none;
+  font-size: 16px;
+}
+.company{
+  font-size: 18px;
+}
+.footer-col li{
+  margin-top: 8px;
+}
+.footer-icons{
+  font-size: 22px;
+  background-color: none;
+}
+.footer-icons a{
+  color: white;
+}
+.footer-button{
+  background-color: none;
+}
+.mailText{
+  flex-grow: 3;
+  outline: none;
+  border: none;
+}
+.mailButton{
+  flex-grow: 1;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  border-radius: 4px;
+}
+.mailButton:hover{
+  background-color: white;
+  color: #00ABE4;
+  transition: 10ms;
+}

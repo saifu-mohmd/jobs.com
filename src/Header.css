@@ -1,0 +1,134 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Fonts/Poppins-Medium.ttf);
+}
+
+.navbar {
+  background-color: #e9f1fa;
+}
+
+.header {
+  background-color: #e9f1fa;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  color: #464444;
+}
+
+.link_home{
+  text-decoration: none;
+}
+
+.navigation-bar {
+  font-family: "Poppins";
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-img {
+  max-width: 120px;
+}
+.nav-link {
+  padding-left: 30px !important;
+}
+
+.search {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  float: left;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 2px 4px;
+  position: relative;
+
+
+}
+
+.headerSearchinput{
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  width: 280px;
+  height: 40px;
+  position: absolute;
+  right: 65px;
+  font-family: poppins;
+  font-weight: 100;
+  color: #464444;
+
+}
+.search img {
+  max-width: 80%;
+  height: auto;
+}
+
+.signIn-icon {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  float: left;
+  margin-right: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 2px 4px;
+}
+
+.signIn-icon img {
+  max-width: 80%;
+  height: auto;
+}
+
+.header-buttons {
+  float: right;
+  font-family: "Poppins";
+  text-decoration: #464444;
+}
+
+button {
+  border: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .headerSearchinput{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    right: 65px;
+    font-family: poppins;
+    font-weight: 100;
+    color: #464444;
+  
+  }
+  
+  .nav-link {
+    padding-left: 15px !important;
+  }
+  
+}
+
+@media only screen and (max-width: 1170px) {
+  
+  .headerSearchinput{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    right: 65px;
+    font-family: poppins;
+    font-weight: 100;
+    color: #464444;
+  
+  }
+}
